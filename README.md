@@ -81,9 +81,6 @@ Access the admin panel.
 Choose a product from the list and click the "Delete" button to remove it.
 Shopping
 Browse Products: Visit the main website and browse through the available products.
-
-Add to Cart: Click the "Add to Cart" button on a product to add it to your shopping cart.
-
 Checkout: When ready, proceed to checkout, enter shipping and payment information, and place your order.
 
 ## Contributing
