@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 HELLO GUYZ.
 ECOMMERCE PLATFORM.
 =======

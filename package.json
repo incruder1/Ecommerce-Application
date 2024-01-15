@@ -5,11 +5,9 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-<<<<<<< HEAD
+
     "start": "nodemon server.js",
-=======
     "start": "node server.js",
->>>>>>> origin/main
     "server": "nodemon server.js",
     "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm run start\" \"npm run client\""
@@ -31,11 +29,9 @@
     "mongoose": "^6.8.4",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.20",
-<<<<<<< HEAD
+
     "react-icons": "^4.7.1",
-=======
     "react-icons": "^4.11.0",
->>>>>>> origin/main
     "slugify": "^1.6.5"
   }
 }
