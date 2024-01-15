@@ -9,11 +9,19 @@
 /coverage
 
 # production
+<<<<<<< HEAD
 /build
 
 # misc
 .DS_Store
 .env.local
+=======
+# /build
+
+# misc
+.DS_Store
+.env 
+>>>>>>> origin/main
 .env.development.local
 .env.test.local
 .env.production.local

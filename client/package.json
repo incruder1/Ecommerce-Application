@@ -16,7 +16,10 @@
     "framer-motion": "^10.16.4",
     "moment": "^2.29.4",
     "react": "^18.2.0",
+<<<<<<< HEAD
     "react-bootstrap": "^2.9.2",
+=======
+>>>>>>> origin/main
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-hot-toast": "^2.4.0",
