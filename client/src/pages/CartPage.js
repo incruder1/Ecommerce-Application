@@ -4,6 +4,7 @@ import { useCart } from "../context/cart";
 import { useAuth } from "../context/auth";
 import { useNavigate } from "react-router-dom";
 import DropIn from "braintree-web-drop-in-react";
+import { AiFillWarning } from "react-icons/ai";
 import axios from "axios";
 import toast from "react-hot-toast";
 import "../styles/CartStyles.css";
@@ -78,10 +79,10 @@ const CartPage = () => {
   };
   return (
     <Layout>
-      <div className="cart-page">
+      <div className=" cart-page">
         <div className="row">
           <div className="col-md-12">
-            <h1 className="text-center bg-light p-2 mb-1">
+            <h1 className="text-center bg-light p-2 mb-3">
               {!auth?.user
                 ? "Hello Guest"
                 : `Hello  ${auth?.token && auth?.user?.name}`}
@@ -99,8 +100,8 @@ const CartPage = () => {
           <div className="row ">
             <div className="col-md-6  p-0 m-0">
               {cart?.map((p) => (
-                <div className=" card flex-row" key={p._id}>
-                  <div className="col-md-2 p-1">
+                <div className="col card flex-row " key={p._id}>
+                  <div className="col-md-4">
                     <img
                       src={`/api/v1/product/product-photo/${p._id}`}
                       className="card-img-top"
@@ -109,14 +110,14 @@ const CartPage = () => {
                       height={"130px"}
                     />
                   </div>
-                  <div className="col-md-4">
-                    <p>Name: {p.name.length>10?p.name.slice(0,15)+'...':p.name}</p>
-                    <p>Description: {p.description.length>10?p.description.slice(0,10)+'...':p.description}</p>
+                  <div className="col-md-4 m-y-9 ">
+                    <p>{p.name}</p>
+                    <p>{p.description.substring(0, 30)}</p>
                     <p>Price : {p.price}</p>
-                  </div> 
+                  </div>
                   <div className="col-md-4 cart-remove-btn">
                     <button
-                      className="btn btn-danger"
+                      className="btn btn-danger p-1"
                       onClick={() => removeCartItem(p._id)}
                     >
                       Remove
@@ -161,7 +162,7 @@ const CartPage = () => {
                         })
                       }
                     >
-                      Plase Login to checkout
+                      Please Login to checkout
                     </button>
                   )}
                 </div>
