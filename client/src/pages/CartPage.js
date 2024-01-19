@@ -101,21 +101,21 @@ const CartPage = () => {
             <div className="col-md-6  p-0 m-0">
               {cart?.map((p) => (
                 <div className="col card flex-row " key={p._id}>
-                  <div className="col-md-4">
+                  <div className="col-md-4 col-sm-4">
                     <img
                       src={`/api/v1/product/product-photo/${p._id}`}
                       className="card-img-top"
                       alt={p.name}
-                      width="100%"
-                      height={"130px"}
+                      width={"100%"}
+                      height={"100%"}
                     />
                   </div>
-                  <div className="col-md-4 m-y-9 ">
+                  <div className="col-md-4 col-sm-4">
                     <p>{p.name}</p>
                     <p>{p.description.substring(0, 30)}</p>
                     <p>Price : {p.price}</p>
                   </div>
-                  <div className="col-md-4 cart-remove-btn">
+                  <div className="col-md-4 cart-remove-btn col-sm-4">
                     <button
                       className="btn btn-danger p-1"
                       onClick={() => removeCartItem(p._id)}
