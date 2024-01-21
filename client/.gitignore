@@ -5,12 +5,8 @@
 /.pnp
 .pnp.js
 
-
 # testing
 /coverage
-
-# production
-
 
 # misc
 .DS_Store
@@ -21,7 +17,7 @@
 # misc
 .DS_Store
 .env 
->>>>>>> origin/main
+
 .env.development.local
 .env.test.local
 .env.production.local
