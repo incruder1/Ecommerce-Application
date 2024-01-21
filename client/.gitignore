@@ -4,12 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-/public 
-/src
 
-package-lock.json
-package.json
->>>>>>> origin/main2
+
 # testing
 /coverage
 
