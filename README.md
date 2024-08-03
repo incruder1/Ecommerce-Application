@@ -91,5 +91,4 @@ We welcome contributions from the community. If you have any feature suggestions
 
 ## Support and Feedback
 If you encounter any issues or have questions about using this ecommerce website and admin panel, please feel free to reach out by creating an issue.
- 
->>>>>>> origin/main
+

@@ -24,8 +24,6 @@
 # misc
 .DS_Store
 .env 
->>>>>>> origin/main
-
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
