@@ -36,7 +36,7 @@ Follow these steps to set up the project:
 
 ```bash
  
- git clone https://github.com/your-username/mern-ecommerce.git
+ git clone https://github.com/incruder1/mern-ecommerce.git
  ```
 **Install Dependencies**: Navigate to the project directory and install server-side dependencies.
 
